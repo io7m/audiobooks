@@ -1,0 +1,45 @@
+{
+  "@context": [
+    "http://readium.org/webpub/default.jsonld"
+  ],
+
+  "readingOrder": [
+    {
+      "title": "Track 0",
+      "href": "https://io7m.github.io/audiobooks/rcN1/item01.ogg",
+      "duration": 10.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Track 1",
+      "href": "https://io7m.github.io/audiobooks/rcN1/item02.ogg",
+      "duration": 10.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Track 2",
+      "href": "https://io7m.github.io/audiobooks/rcN1/item03.ogg",
+      "duration": 10.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Track 3",
+      "href": "https://io7m.github.io/audiobooks/rcN1/item04.ogg",
+      "duration": 5.0,
+      "type": "audio/ogg"
+    }
+  ],
+
+  "toc": [
+    {
+      "href": "https://io7m.github.io/audiobooks/rcN1/item01.ogg#t=0",
+      "title": "Shadow Dancer + Crackdown + Alisia Dragoon + Gunstar Heroes"
+    }
+  ],
+
+  "metadata": {
+    "title": "Reading Order Items / Chapters N:1",
+    "identifier": "urn:uuid:b2d205e6-0a91-4054-ba55-3f715d7c9053"
+  }
+}
+

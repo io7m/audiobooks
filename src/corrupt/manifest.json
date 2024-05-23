@@ -1,0 +1,111 @@
+{
+  "@context": [
+    "http://readium.org/webpub/default.jsonld"
+  ],
+
+  "readingOrder": [
+    {
+      "title": "Train Wreck",
+      "href": "https://io7m.github.io/audiobooks/corrupt/wreck.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Corrupted 0.01 Percent",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item00.mp3",
+      "duration": 35.0,
+      "type": "audio/mpeg"
+    },
+    {
+      "title": "Corrupted 0.06 Percent",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item01.mp3",
+      "duration": 35.0,
+      "type": "audio/mpeg"
+    },
+    {
+      "title": "Corrupted 0.11 Percent",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item02.mp3",
+      "duration": 35.0,
+      "type": "audio/mpeg"
+    },
+    {
+      "title": "Corrupted 0.16 Percent",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item03.mp3",
+      "duration": 35.0,
+      "type": "audio/mpeg"
+    },
+    {
+      "title": "Corrupted 0.21 Percent",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item04.mp3",
+      "duration": 35.0,
+      "type": "audio/mpeg"
+    },
+
+    {
+      "title": "Corrupted 59 Bytes",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item00.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Corrupted 59 Bytes",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item01.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Corrupted 119 Bytes",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item02.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Corrupted 178 Bytes",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item03.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Corrupted 238 Bytes",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item04.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Corrupted 297 Bytes",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item05.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Corrupted 357 Bytes",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item06.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Corrupted 416 Bytes",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item07.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Corrupted 476 Bytes",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item08.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Corrupted 535 Bytes",
+      "href": "https://io7m.github.io/audiobooks/corrupt/item09.ogg",
+      "duration": 35.0,
+      "type": "audio/ogg"
+    }
+  ],
+
+  "metadata": {
+    "title": "Corrupted Audio",
+    "identifier": "urn:uuid:829ff03b-1240-43bb-b458-79d26156948e"
+  }
+}
+
