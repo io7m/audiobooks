@@ -5,12 +5,6 @@
 
   "readingOrder": [
     {
-      "title": "Train Wreck",
-      "href": "https://io7m.github.io/audiobooks/corrupt/wreck.ogg",
-      "duration": 35.0,
-      "type": "audio/ogg"
-    },
-    {
       "title": "Corrupted 0.01 Percent",
       "href": "https://io7m.github.io/audiobooks/corrupt/item00.mp3",
       "duration": 35.0,
