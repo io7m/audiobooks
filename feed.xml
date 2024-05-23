@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
+
+  <id>urn:uuid:91551fea-b6f7-4870-a136-f57840a36f42</id>
+  <title>Audiobooks OPDS Suite</title>
+  <updated>2024-05-23T09:30:00+00:00</updated>
+
+  <entry>
+    <id>urn:uuid:fc0210ce-6ad2-4338-a434-1e2300c44436</id>
+    <title>Reading Order Items / Chapters 1:1</title>
+    <updated>2024-05-23T09:30:00+00:00</updated>
+
+    <summary type="html">
+      An audiobook where the reading order items and chapters have a 1:1 correspondence.
+    </summary>
+
+    <link href="dog.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="dogThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+    <link href="rc11/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:b47474f5-2318-4fe7-a7a9-f8fb5d3e1074</id>
+    <title>Reading Order Items / Chapters 1:N</title>
+    <updated>2024-05-23T09:30:00+00:00</updated>
+
+    <summary type="html">
+      An audiobook where there is a single reading order item and multiple chapters.
+    </summary>
+
+    <link href="dog.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="dogThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+    <link href="rc1N/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:b2d205e6-0a91-4054-ba55-3f715d7c9053</id>
+    <title>Reading Order Items / Chapters N:1</title>
+    <updated>2024-05-23T09:30:00+00:00</updated>
+
+    <summary type="html">
+      An audiobook where there are multiple reading order items but only a single chapter.
+    </summary>
+
+    <link href="dog.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="dogThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+    <link href="rcN1/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:513e4753-d71e-4eea-b9ce-0f8eab7964b6</id>
+    <title>Reading Order Items / Chapters N:M</title>
+    <updated>2024-05-23T09:30:00+00:00</updated>
+
+    <summary type="html">
+      An audiobook where there are multiple reading order items and multiple chapters, and no clear correspondence
+      between them.
+    </summary>
+
+    <link href="dog.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="dogThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+    <link href="rcNM/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:829ff03b-1240-43bb-b458-79d26156948e</id>
+    <title>Corrupted Audio</title>
+    <updated>2024-05-23T09:30:00+00:00</updated>
+
+    <summary type="html">
+      An audiobook where the reading order items have varying degrees of corruption.
+    </summary>
+
+    <link href="dog.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="dogThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+    <link href="corrupt/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
+</feed>
