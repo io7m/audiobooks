@@ -1,0 +1,60 @@
+{
+  "@context": "http://readium.org/webpub/default.jsonld",
+  "metadata": {
+    "identifier": "urn:uuid:b47474f5-2318-4fe7-a7a9-f8fb5d3e1074",
+    "title": "LCP Test 0",
+    "author": "Kevin Macleod"
+  },
+  "readingOrder": [
+    {
+      "href": "track1.ogg",
+      "type": "audio/ogg",
+      "title": "3AM West End",
+      "duration": 10,
+      "properties": {
+        "encrypted": {
+          "scheme": "http://readium.org/2014/01/lcp",
+          "algorithm": "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+        }
+      }
+    },
+    {
+      "href": "track2.ogg",
+      "type": "audio/ogg",
+      "title": "Beat One",
+      "duration": 10,
+      "properties": {
+        "encrypted": {
+          "scheme": "http://readium.org/2014/01/lcp",
+          "algorithm": "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+        }
+      }
+    },
+    {
+      "href": "track3.ogg",
+      "type": "audio/ogg",
+      "title": "Goodnightmare",
+      "duration": 10,
+      "properties": {
+        "encrypted": {
+          "scheme": "http://readium.org/2014/01/lcp",
+          "algorithm": "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+        }
+      }
+    }
+  ],
+  "toc": [
+    {
+      "href": "track1.ogg#t=0",
+      "title": "3AM West End"
+    },
+    {
+      "href": "track2.ogg#t=0",
+      "title": "Beat One"
+    },
+    {
+      "href": "track3.ogg#t=0",
+      "title": "Goodnightmare"
+    }
+  ]
+}
