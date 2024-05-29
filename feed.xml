@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:opds="http://opds-spec.org/2010/catalog">
 
   <id>urn:uuid:91551fea-b6f7-4870-a136-f57840a36f42</id>
   <title>Audiobooks OPDS Suite</title>
@@ -27,7 +28,7 @@
   </entry>
 
   <entry>
-    <id>urn:uuid:b47474f5-2318-4fe7-a7a9-f8fb5d3e1074</id>
+    <id>urn:uuid:9ba74281-113d-400b-ae6c-5415b7d9a11b</id>
     <title>Reading Order Items / Chapters 1:N</title>
     <updated>2024-05-23T09:30:00+00:00</updated>
 
@@ -105,6 +106,31 @@
     <link href="corrupt/manifest.json"
           rel="http://opds-spec.org/acquisition/open-access"
           type="application/audiobook+json"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:b47474f5-2318-4fe7-a7a9-f8fb5d3e1074</id>
+    <title>LCP 0</title>
+    <updated>2024-05-23T09:30:00+00:00</updated>
+
+    <summary type="html">
+      An LCP-encrypted audiobook. The passphrase is <tt>n6RwtMR3CTwfrg4Y8TuUDg==</tt>.
+    </summary>
+
+    <link href="dog.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="dogThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="lcp0/book.lcpl"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/vnd.readium.lcp.license.v1.0+json">
+      <opds:indirectAcquisition type="application/vnd.readium.lcp.license.v1.0+json">
+        <opds:indirectAcquisition type="application/audiobook+lcp"/>
+      </opds:indirectAcquisition>
+    </link>
   </entry>
 
 </feed>
