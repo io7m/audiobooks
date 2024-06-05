@@ -1,0 +1,53 @@
+{
+  "@context": [
+    "http://readium.org/webpub/default.jsonld"
+  ],
+
+  "readingOrder": [
+    {
+      "title": "Track 0",
+      "href": "https://io7m.github.io/audiobooks/missing/item01.ogg",
+      "duration": 10.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Track 1",
+      "href": "https://io7m.github.io/audiobooks/missing/item02.ogg",
+      "duration": 10.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Track 2",
+      "href": "https://io7m.github.io/audiobooks/missing/item03.ogg",
+      "duration": 10.0,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Track 3",
+      "href": "https://io7m.github.io/audiobooks/missing/item04.ogg",
+      "duration": 5.0,
+      "type": "audio/ogg"
+    }
+  ],
+
+  "toc": [
+    {
+      "href": "https://io7m.github.io/audiobooks/missing/item01.ogg#t=0",
+      "title": "Shadow Dancer + Crackdown"
+    },
+    {
+      "href": "https://io7m.github.io/audiobooks/missing/item02.ogg#t=5",
+      "title": "Crackdown + Alisia Dragoon"
+    },
+    {
+      "href": "https://io7m.github.io/audiobooks/missing/item03.ogg#t=5",
+      "title": "Alisia Dragoon + Gunstar Heroes"
+    }
+  ],
+
+  "metadata": {
+    "title": "Missing N:M",
+    "identifier": "urn:uuid:64319797-29c7-4a71-a744-1345111fba82"
+  }
+}
+

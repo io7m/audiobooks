@@ -133,4 +133,25 @@
     </link>
   </entry>
 
+  <entry>
+    <id>urn:uuid:64319797-29c7-4a71-a744-1345111fba82</id>
+    <title>Missing N:M</title>
+    <updated>2024-05-23T09:30:00+00:00</updated>
+
+    <summary type="html">
+      An audiobook where there are multiple reading order items and multiple chapters, and no clear correspondence
+      between them, and some of the reading order item files are missing.
+    </summary>
+
+    <link href="dog.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="dogThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+    <link href="missing/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
 </feed>
