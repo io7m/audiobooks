@@ -14,3 +14,4 @@ rsync -av src/rc11 out/
 rsync -av src/rcN1 out/
 rsync -av src/rcNM out/
 rsync -av src/lcp0 out/
+rsync -av src/missing out/
