@@ -154,4 +154,44 @@
           type="application/audiobook+json"/>
   </entry>
 
+  <entry>
+    <id>urn:uuid:bb1ad9eb-8a90-4319-8a4b-a4833bdecf3b</id>
+    <title>Manifest Understates Duration</title>
+    <updated>2024-05-23T09:30:00+00:00</updated>
+
+    <summary type="html">
+      An audiobook where the manifest says the reading order items are shorter than they actually are.
+    </summary>
+
+    <link href="dog.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="dogThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+    <link href="wrongDurationsUnder/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:a1e8c783-4809-445e-9ce9-5a09f4776d75</id>
+    <title>Manifest Overstates Duration</title>
+    <updated>2024-05-23T09:30:00+00:00</updated>
+
+    <summary type="html">
+      An audiobook where the manifest says the reading order items are longer than they actually are.
+    </summary>
+
+    <link href="dog.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="dogThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+    <link href="wrongDurationsOver/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
 </feed>
