@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "http://readium.org/webpub/default.jsonld"
+  ],
+
+  "readingOrder": [
+    {
+      "title": "Track 0",
+      "href": "https://io7m.github.io/audiobooks/longer/item01.mp3",
+      "duration": 153.652,
+      "type": "audio/ogg"
+    },
+    {
+      "title": "Track 1",
+      "href": "https://io7m.github.io/audiobooks/longer/item02.mp3",
+      "duration": 77.061,
+      "type": "audio/ogg"
+    }
+  ],
+
+  "toc": [
+    {
+      "href": "https://io7m.github.io/audiobooks/longer/item01.mp3#t=0",
+      "title": "For Elevator Music"
+    },
+    {
+      "href": "https://io7m.github.io/audiobooks/longer/item02.mp3#t=0",
+      "title": "A Jazz Piano"
+    }
+  ],
+
+  "metadata": {
+    "title": "Longer Chapters",
+    "identifier": "urn:uuid:129fe309-2cae-4d51-8528-de23967a15a8"
+  }
+}
+
