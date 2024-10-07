@@ -214,4 +214,24 @@
           type="application/audiobook+json"/>
   </entry>
 
+  <entry>
+    <id>urn:uuid:9eb99fe0-923a-4ad7-b114-754ef8172bbb</id>
+    <title>Missing Files</title>
+    <updated>2024-05-23T09:30:00+00:00</updated>
+
+    <summary type="html">
+      An audiobook where the files for every single chapter are missing.
+    </summary>
+
+    <link href="dog.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="dogThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+    <link href="missing_files/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
 </feed>

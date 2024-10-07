@@ -15,6 +15,7 @@ rsync -av src/rcN1 out/
 rsync -av src/rcNM out/
 rsync -av src/lcp0 out/
 rsync -av src/missing out/
+rsync -av src/missing_files out/
 rsync -av src/wrongDurationsOver out/
 rsync -av src/wrongDurationsUnder out/
 rsync -av src/longer out/
